@@ -2,7 +2,7 @@ name: Update Proxy IP Status
 
 on:
   schedule:
-    - cron: '0 0 */7 * *'  # Pengecekan setiap 7 hari sekali
+    - cron: '0 0 * * *'  # Run every day at 00:00 UTC
   workflow_dispatch:
 
 jobs:
